@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Andrey CV</title>
+</head>
+<body>
+   <table cellspacing="20">  <!--cellspacing-расстояние между столбцами -->
+    <tr>
+<td><img src="C:\Users\Андрей\Desktop\ПРОБА ПЕРА\Урок 2\avatarka.png" width="200" alt="тут моя фотка"/></td>
+<!-- здесь "alt" для альтернативного поиска картинки,не понял зачем, но рекомендуется применять всегда -->
+<td><h1>Андрей Быков</h1>
+  <p><em>Я-<strong>ученик</strong> YouTube-канала Владилен.</em>   </p>
+  <p>Я люблю путешествовать и всё такое-прочее.Чем дороже и несбыточнее-тем лучше!</p></td>
+
+    </tr>
+   </table>
+   <hr>   <!--Горизонтальная линия -->
+<h2>Мои социальные сети</h2>
+ 
+    <ul>
+          <li><a href="https://vk.com/feed" target="_blank">В Контакте</a></li>
+          <li><a href="https://ok.ru/" target="_blank" >Одноклассники</a></li>
+    </ul>  
+    <hr>
+    <h2>Мои увлечения</h2>
+    <ol type="A">
+      <li>Падать с исправным парашютом</li>
+      <li>Взлетать на недырявом воздушном шаре</li>
+      <li>Ходить на своих ногах.Только не в гору</li>
+      </ol>
+      <h2>Youtube-курсы</h2>
+      <a href="Youtube.html" target="_blank"> Посмотреть список </a>
+      <hr>
+      <h2>Опыт работы</h2>
+      <!-- Также таблицы можно делать, используя теги Thead,Tbody,Tfoot  -->
+ <table border="2">  <!--border-рамки в таблице и "размер" -->
+     <tr>  <!-- "tr" говорит о начале новой строки в таблице -->
+  <th>Название предприятия</th>
+  <th>Должность</th>
+  <th>Период работы</th> <!--"th"-строка ЖИРНЫМ TABLE HEADER ТАБЛИЧНАЯ ГОЛОВА-->
+</tr> 
+  <tr> <!-- "tr" говорит о начале новой строки в таблице -->
+  <td>СП "Элвис Инжиниринг". </td> <!--"td"-строка НЕ ЖИРНЫМ -->
+  <td>Главный бухгалтер. </td>
+  <td>Давным-давно.</td>
+</tr>
+<tr> <!-- "tr" говорит о начале новой строки в таблице -->
+  <td>ООО "ТРГБ Тригуб В.И.".</td>
+  <td>Главный бухгалтер.</td>
+  <td>Давным-давно.</td>
+</tr>  
+ </table>
+ <hr>
+ <h2>Мои контакты</h2>
+ <form action=""> 
+  <label for="name" >Ваше имя:</label>
+  <input type="text" id="name" placeholder="Введите ваше имя">
+  
+  <label for="Email" >Ваш Email:</label>
+  <input type="email" id="Email" placeholder="Введите ваше email">
+   <br>  <!--br-новая -строка -->
+  <label> Ваш телефон</label>
+  <input type="phone" placeholder="Здесь нет индентификатора id">
+  <br>
+  <label for="password">Пароль</label>
+  <input type="password" placeholder="Пароль спрятан за точками" > 
+  <br>
+  <input type="number">
+  <br>
+  <input type="checkbox" name="" id="">
+  <br>
+  <input type="submit" value="Связаться">
+
+
+</form>
+
+</body>
+</html>
+ 
